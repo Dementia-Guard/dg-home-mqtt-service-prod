@@ -1,0 +1,30 @@
+{
+  "name": "home_mqtt_service",
+  "version": "1.0.0",
+  "description": "mqtt service realted to the homepod of DG",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dementia-Guard/dg-home-mqtt-service-prod.git"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "moshdev2213",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dementia-Guard/dg-home-mqtt-service-prod/issues"
+  },
+  "homepage": "https://github.com/Dementia-Guard/dg-home-mqtt-service-prod#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "mqtt": "^5.10.4"
+  }
+}
