@@ -58,7 +58,7 @@ jobs:
             --set-env-vars MQTT_PASSWORD=${{ secrets.MQTT_PASSWORD }} \
             --set-env-vars MQTT_TOPIC=${{ secrets.MQTT_TOPIC }} \
             --set-env-vars MQTT_QOS=${{ secrets.MQTT_QOS }} \
-            --set-env-vars MONGO_URI=${{ secrets.MONGO_URI }}
+            --set-env-vars MONGO_URL=${{ secrets.MONGO_URL }}
 
       - name: "Show output"
         run: |2-
