@@ -10,7 +10,7 @@ app.use(express.json());
 connectDB();
 
 // Routes
-app.use("/api", alertRoutes);
+app.use("/route", alertRoutes);
 
 //route for health check
 app.get('/', (req, res) => {
